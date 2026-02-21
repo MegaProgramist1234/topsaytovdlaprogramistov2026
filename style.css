@@ -2,12 +2,14 @@ img {
     width: 80px;
     height: 80px;
     background-color: aqua;
+    border: 2px;
 }
 
 
  .Big {
     width: 300px;
     height: 200px;
+    border:2px;
 }
 
 h1 {
@@ -19,18 +21,23 @@ h1 {
 p {
  text-align:center;
  font-family:SEGOE UI ;
+ color: black;
 }
 
  .Litle {
     width: 150px;
     height: 100px;
+    border:2px;
 }
 a { 
   text-align: left;
   
 } 
 body{
-    background-color:aqua ;
+    background-color:cornflowerblue ;
+}
+li {
+    text-align: center;
 }
 
 
