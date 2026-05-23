@@ -3,44 +3,65 @@ img {
     height: 80px;
     background-color: aqua;
     border: 2px;
+    box-shadow:20px,5px,20px,0px;
 }
+
 
 
  .Big {
     width: 300px;
     height: 200px;
     border:2px;
+    box-shadow:20px,5px,20px,0px black ;
 }
+
 
 h1 {
  text-align:center;
  font-size: 50px;
- font-family:ARIAL BLACK ;
+ font-family:ARIAL Black ;
+ background-image:linear-gradient(to right,red,orange,yellow,green,blue,purple) ; 
 }
+
 
 p {
  text-align:center;
  font-family:SEGOE UI ;
- color: black;
+ color: black;  
 }
 
  .Litle {
     width: 150px;
     height: 100px;
     border:2px;
-}
+ }    
 a { 
-  text-align: left;
-  
+  text-align:bottom;
+  background-image:linear-gradient(to right,red,orange,yellow,green,blue,purple) ;
+  float:right;
 } 
 body{
-    background-color:cornflowerblue ;
+     background-image:linear-gradient(to right,red,orange,yellow,green,blue,purple) ;
 }
 li {
     text-align: center;
+    background-image:linear-gradient(to right,red,orange,yellow,green,blue,purple) ;
 }
-
-
+.litle:hover {
+  transform:scale(100) ;
+  transform:translateX(100px) translateY(0px);
+  transition:0.5 linear ;
+}
+.Big:hover {
+  transform:scale(100);
+  transform:translateX(100px) translateY(0px);
+  transition:0.5s linear ;
+}
+img:hover {
+  transform:scale(100) ;
+  transform:translateX(100px) translateY(0px);
+  transition:0.5s linear ;
+}
   
  
 
