@@ -12,7 +12,7 @@ img {
     width: 300px;
     height: 200px;
     border:2px;
-    box-shadow:20px,5px,20px,0px black ;
+    box-shadow:20px,0px,20px,10px black ;
 }
 
 
@@ -35,18 +35,11 @@ p {
     height: 100px;
     border:2px;
  }    
-a { 
-  text-align:bottom;
-  background-image:linear-gradient(to right,red,orange,yellow,green,blue,purple) ;
-  float:right;
-} 
+
 body{
      background-image:linear-gradient(to right,red,orange,yellow,green,blue,purple) ;
 }
-li {
-    text-align: center;
-    background-image:linear-gradient(to right,red,orange,yellow,green,blue,purple) ;
-}
+
 .litle:hover {
   transform:scale(100) ;
   transform:translateX(100px) translateY(0px);
@@ -62,8 +55,7 @@ img:hover {
   transform:translateX(100px) translateY(0px);
   transition:0.5s linear ;
 }
-  
- 
-
-
+a {
+  float:right;
+}  
  
